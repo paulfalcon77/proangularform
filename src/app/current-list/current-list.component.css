@@ -1,0 +1,31 @@
+.wrapper {
+  padding: 10px;
+  width: 70%;
+  margin: 20px auto;
+  height: 800px;
+  border-radius: 10px;
+  background: rgb(236, 238, 214);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.person {
+  width: 700px;
+
+  height: 650px;
+  border-radius: 15px;
+}
+.currentBtn {
+  display: flex;
+}
+.currentBtn button {
+  padding: 10px;
+  background-color: deeppink;
+  border-radius: 30px;
+  margin: 10px;
+}
+img {
+  width: 55%;
+  height: 55%;
+}
