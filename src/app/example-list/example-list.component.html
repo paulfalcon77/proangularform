@@ -13,6 +13,7 @@
       <button (click)="openAddOrder()">Form Order</button>
     </div>
   </div>
+
   <tr *ngFor="let person of persons | filter : filterSearch">
     <button
       [class.selected]="person === selectedPerson"
